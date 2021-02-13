@@ -1,4 +1,6 @@
 <?php
+#@author David González Conejero
+
 # Observa que hemos prescindido de los encabezados HTML.
 # No son imprescindibles para la ejecución de los scripts
 /* Escribamos una función y llamémosla sinEstaticas
@@ -56,4 +58,4 @@ print("Esta es la segunda llamada a conEstaticas()<br>");
 print("El resultado es distinto a la llamada anterior<br>");
 conEstaticas();
 
-echo "<br><br>RESPUESTA: <br> La variable conservará el último de los valores que le ha sido asignado durante la ejecución de la función que la contiene.";
+echo "<br><br><h1>RESPUESTA:</h1> <br> La variable conservará el último de los valores que le ha sido asignado durante la ejecución de la función que la contiene.";
